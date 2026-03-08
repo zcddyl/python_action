@@ -41,8 +41,7 @@ jobs:
       - name: Create Executable
         uses: sayyid5416/pyinstaller@v1
         with:
-          python_ver: '3.6'
-          pyinstaller_ver: '==5.13.2'
+          python_ver: '3.12'
           spec: 'main.py'
           upload_exe_with_name: 'bubu_packet'
           options: --onefile        
